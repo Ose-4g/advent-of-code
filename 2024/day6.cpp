@@ -60,7 +60,7 @@ bool hasLoop(std::vector<std::string>& lines, int r, int c)
     int dir = 0;
 
     auto getPos = [&rows, &cols](int r, int c){
-        return r * rows + c;
+        return r * cols + c;
     };
 
 
